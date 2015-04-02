@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://honghuali.github.io/</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/index.html</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/proj.html</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/pub.html</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/personal.html</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/contact.html</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/cv.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/stackem/</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/curve_style/</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/xu_siga10_style.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/courses/svm3D.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/courses/srn.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/courses/shadow.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/stackem/stackabilization.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/stackem/stackabilization_small.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/stackem/stackabilization_slides.pptx</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/curve_style/curve_style.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://honghuali.github.io/projects/curve_style/curve_style_small.pdf</loc>
+  <lastmod>2015-04-02T17:56:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>

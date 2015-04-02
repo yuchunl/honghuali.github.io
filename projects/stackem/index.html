@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title> Stackabilization </title>
+	<LINK REL="SHORTCUT ICON" HREF="http://www.computer-graphics.cn/~hh/projects/stackem/stackem.ico" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../common/style.css">
+	<link rel="stylesheet" type="text/css" media="print" href="../common/style.css">
+</head>
+
+
+<body>
+
+<div id="paper-title"> 
+	Stackabilization  
+</div>
+
+<div id="venue">
+	SIGGRAPH Asia 2012
+</div>
+
+<div id="author-list">  
+	<a href="http://www.computer-graphics.cn/~hh/"> Honghua Li </a>
+	<a href="http://www.cs.sfu.ca/~iaa7/personal/"> Ibraheem Alhashim </a>
+	<a href="http://www.cs.sfu.ca/~haoz/"> Hao Zhang </a>
+	<a href="http://www.faculty.idc.ac.il/arik/site/index.asp"> Ariel Shamir </a>
+	<a href="http://www.cs.tau.ac.il/~dcor/"> Daniel Cohen-Or </a>
+</div>
+
+<div id="affiliation">
+	<span class="affiliation"> Simon Fraser University </span>
+	<span class="affiliation"> National University of Defense Technology </span>
+	<br>
+	<span class="affiliation"> Interdisciplinary Center </span>
+	<span class="affiliation"> Tel Aviv University </span>
+</div>
+
+<div id="teaser">
+	<img class="teaser" src="teaser.png"/>
+</div>
+
+<div id="abstract">
+	<h2> Abstract </h2>
+	<p>  
+	We introduce the geometric problem of stackabilization: how to geometrically modify a 3D object so that it is more amenable to stacking. Given a 3D object and a stacking direction, we define a
+measure of stackability, which is derived from the gap between the lower and upper envelopes of the object in a stacking configuration along the stacking direction. The main challenge in stackabilization lies in the desire to modify the object’s geometry only subtly so that the intended functionality and aesthetic appearance of the original object are not significantly affected. We present an automatic algorithm to deform a 3D object to meet a target stackability score using energy minimization. The optimized energy accounts for both the scales of the deformation parameters as well as the preservation of pre-existing geometric and structural properties in the object, e.g., symmetry, as a means of maintaining its functionality. We also present an intelligent editing tool that assists a modeler when modifying a given 3D object to improve its stackability.  Finally, we explore a few fun variations of the stackabilization problem.
+	</p>
+</div>
+
+<div id="Paper">  
+	<h2>Paper</h2>
+	<p class="download">
+		<a href="stackabilization.pdf" target="blank"><image class="icon" src="../common/PDF-icon.png"> High quality, 10.5MB </a> &nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="stackabilization_small.pdf" target="blank"><image class="icon" src="../common/PDF-icon2.png"> Low quality, 1.4MB </a>
+</div>
+
+<div id="Slides">  
+	<h2>Slides</h2>
+	<p class="download"> 	
+		<a href="stackabilization_slides.pptx" target="blank"><image class="icon" src="../common/pptx-icon.png"> PPTX, 6.12MB </a> 
+</div>
+		
+<div id="Code">  
+	<h2>Code</h2>
+	<p class="download">
+		<a href="http://code.google.com/p/stacker/" target="blank"><image class="icon" src="../common/code-icon.png"> 
+		<a href="http://code.google.com/p/stacker/" target="blank">Google Project Hosting</a> 
+	</p>
+</div>
+
+<div id="Videos">
+	<h2 class="caption"> Videos </h2>
+	<p>
+	<iframe width="260" height="185" src="http://www.youtube-nocookie.com/embed/Ge8XeYse92o?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="260" height="185" src="http://www.youtube-nocookie.com/embed/Zt7RXLa4in4?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="260" height="185" src="http://www.youtube-nocookie.com/embed/U0UVLBWayAE?rel=0" frameborder="0" allowfullscreen></iframe>
+	</p>
+</div>
+
+<div id="bibtex">
+	<h2>Bibtex</h2>
+	<p class="bibtex"> 
+	@article {Li_siga12,<br>
+    title = {Stackabilization},<br>
+    author = {Honghua Li and Ibraheem Alhashim and Hao Zhang and Ariel Shamir and Daniel Cohen-Or}<br>
+    journal = {ACM Transactions on Graphics, (Proc. of SIGGRAPH Asia 2012)},<br>
+    volume = {31},<br>
+    number = {6},<br>
+    pages = {to appear},<br>
+    year = {2012}<br>
+}
+	</p>
+</div>
+
+<div id="acknowledgement">
+	<h2> Acknowledgement </h2>
+	<p> 
+	We thank the anonymous reviewers for their valuable comments. We thank Yanir Kleinman for initial testing of the stackabilization
+concept, to Kai Xu for discussion on the controller deformation code, and to all the participants of the user study.  This work is supported in part by grants from China Scholarship Council, National Science and Engineering Research Council of Canada (No. 611370), the Israel Ministry of Science and Education, and the Israel Science Foundation (No. 324/11).
+	</p>
+</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,4 @@
+1. image gallery
+2. projects page
+3. get rid of all tables in publication page
+4. personal page: more real personal stuff

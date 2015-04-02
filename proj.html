@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Honghua Li's Homepage</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="sitename">
+			<h1>HONG-HUA&nbsp LI  &nbsp &nbsp &nbsp &nbsp李 宏华</h1>
+		</div>
+		
+		<div id="header">
+			<h2>Welcome to my website!</h2>
+			<div class="tagline"><p>Computer graphics, Computing science, and stuff on my mind.</p></div>
+		</div>
+		
+		<div id="body" class="clear">
+			<div id="sidebar" class="column-left">
+				<ul>
+                	<li>
+						<h4>Navigate</h4>
+                        <ul class="blocklist">
+                            <li><a href="index.html">Home</a></li>
+							<li class="selected-item"><a href="proj.html">Projects</a></li>
+                            <li><a href="pub.html">Publications</a></li>
+                            <li><a href="personal.html">Personal</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+					</li>	
+				</ul>
+				
+				<br><br><br>
+				<a href="http://gruvi.cs.sfu.ca">
+					<img alt="GrUVi Logo" width="166" src="images/gruvi.jpg" >
+				</a>
+				<a href="http://www.sfu.ca">
+					<img alt="SFU Logo" width="166" src="images/sfu.jpg" >
+				</a>
+				
+				<br><br><br><br>
+				<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://www.computer-graphics.cn/~hh', 'user' : 1003985, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-04-10', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/f1df51d1"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/www.computer-graphics.cn-~hh-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+			</div>
+			
+			
+			<div id="content" class="column-right">            
+				<h2>Research Projects</h2>		
+				
+				<img src="images/pub/hh_siga12.png" alt="stacking picture" width="180" style="float:left; margin-top:5px"/>
+				<h3>Stackabilization</h3>				
+				<p>					
+					We introduce the geometric problem of stackabilization: how to
+					geometrically modify a 3D object so that it is more amenable to
+					stacking. 
+					[<a href="projects/stackem/">Project page</a>]</p>
+				<br><br><br><br>
+				
+			
+				<img src="images/pub/curve_style.jpg" alt="curve style picture" width="120" style="float:left; margin-top:10px"/>
+				<h3>Curve style analysis in a set of shapes</h3>
+				<p>					
+					We pose the open question “how to extract styles from geometric shapes?” 
+					and address one instance of the problem. </p>
+				<p>Specifically, we present an unsupervised algorithm for identifying curve styles in a set of shapes. 
+					In our setting, a curve style is explicitly represented by a
+					mode of curve features appearing along the 2D silhouettes of the shapes in the set.	
+					[<a href="projects/curve_style/">Project page</a>]</p>				
+				<br>
+				
+				<img src="images/pub/style1.jpg" alt="Style1 picture" width="180" style="float:left; margin-top:25px"/>			
+				<h3>Style-Content Separation by Part Scales</h3>
+				<p>					
+					We perform co-analysis of a set of man-made 3D objects to allow
+					the creation of novel instances derived from the set. We analyze
+					the objects at the part level and treat the anisotropic part scales as a
+					shape style. The co-analysis then allows style transfer to synthesize
+					new objects. <b>Paper on SIGGRAPH ASIA'10</b>:
+					[<a href="projects/xu_siga10_style.pdf">PDF, 0.7M</a>]</p>
+				<br><br><br><br>
+				
+				
+				
+				<h2>Course Projects</h2>
+				<h4>Here is a list of course project papers wroten during my Ph.D. program.<h4>
+				
+				<h3>Multiclass Classification on 3D Shapes</h3>				
+				<p>					
+					I present a multiclass classification method for 3D shapes in this project. First, D2
+					shape distribution is used to generate discriminative representation of 3D shapes,
+					which is developed to be invariant to rigid transformations and scalings. Next
+					I employ the all-versus-all approach to decompose the multiclass classification
+					problem into several binary classification problems, which are solved later by
+					Support Vector Machine. The experiments performed show that the proposed
+					parameter-free method is successful on a large testing dataset.<br>
+					[<a href="projects/courses/svm3D.pdf">PDF, 0.7M</a>]</p>
+					
+					
+				<h3>Discovering Lexical Hierarchy from Word Sequences</h3>				
+				<p>					
+					In this project, I used Emergent software (previously called PDP++) to simulate an SRN, 
+					and trained it with more complicated corpora, which contained that- and preposition-clauses 
+					and had longer sentence lengths. Besides discovering lexical classes and testing the trained network 
+					with a novel untrained noun, I also examined the distribution of hidden activations of each word in different contexts, 
+					and found that the network was able to learn to distinguish the syntax roles of each word.<br>
+					[<a href="projects/courses/srn.pdf">PDF, 0.3M</a>]</p>
+
+				<h3>Intrinsic Images by Entropy Minimization</h3>				
+				<p>					
+					I recover invariant image, which is 2D chromaticity, from
+					a single unsourced 3-band color image. The method bases
+					on the observation that the invariant direction is that along
+					which the projection minimizes entropy in the resulting invariant
+					image. Results, demonstrated on images with unknown
+					camera, show that the proposed method successfully
+					removes shadows from unsoursed imagery. Further more,
+					I try to recover full-color images with shadow removed
+					using edge detection and re-integration.<br>
+					[<a href="projects/courses/shadow.pdf">PDF, 0.3M</a>]</p>
+			</div>
+		</div>
+		
+		
+		<div id="footer" class="clear">
+			<p class="left">&copy; 2011 Honghua Li</p>
+			<p class="right">Design by <a href="http://www.spyka.net">Free CSS Templates</a> and <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
+		</div>
+	</div>
+</body>
+</html>

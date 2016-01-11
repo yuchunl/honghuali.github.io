@@ -417,7 +417,7 @@ ul.timeline li .content .pre .pub-description a:link, .pub-description a:visited
 
 ul.timeline li .content .pre .pub-image{
 	float: left;
-	width: 25%;
+	width: 150p;
 	border: 2px solid #555;
 }
 
@@ -440,7 +440,7 @@ ul.timeline li .content .pre .pub-description .link-icon{
 ---------------------------------------------------------*/
 .personal-section img{
 	position: absolute;
-	width:25%;
+	width:20%;
 	opacity: 0.2;
 }
 
